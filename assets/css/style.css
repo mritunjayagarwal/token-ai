@@ -4,6 +4,17 @@
     box-sizing: border-box;
 }
 
+.head{
+    color: #55298B;
+    font-weight: 700;
+    font-size: 50px;
+}
+
+p{
+    font-size: 25px;
+    font-weight: 550;
+}
+
 #background-video {
     height: 100%;
     width: 100%;
@@ -17,8 +28,16 @@
   }
 
 .container{
-    max-width: 90%;
+    max-width: 95%;
     margin: 0 auto;
+}
+
+.btn-top{
+    padding: 1rem 4rem;
+    border-radius: 40px;
+    font-weight: 500;
+    font-size: 22px;
+    color: #55298B;
 }
 
 header{
@@ -41,12 +60,13 @@ section{
     padding:  100px 0px;
 }
 
-.heading{
+.main-heading{
     font-size: 8rem;
 }
 
-.desc{
+.main-desc{
     font-size: 2.5rem;
+    font-weight: 350;
 }
 
 .navbar li a{
@@ -65,14 +85,24 @@ section{
 }
 
 .uni-btn{
-    padding: 30px 60px;
+    padding: 10px 100px;
+    font-weight: 1000 !important;
+    font-size: 25px !important;
+    color: #55298B;
 }
 
 /* trade section */
 
 .trade-img{
-    width: 100px;
+    width: 130px;
     height: auto;
+}
+
+.trade-heading{
+    color: #55298B;
+    font-weight: 700;
+    margin-top: 30px;
+    font-size: 40px;
 }
 
 /* tokenomics section */
@@ -86,14 +116,38 @@ section{
     border-radius: 20px;
 }
 
+.grid-head{
+    font-size: 60px;
+    letter-spacing: 3px;
+    font-weight: 700;
+}
+
 @media only screen and (max-width: 667px) {
-    .heading{
+    .main-heading{
         font-size: 4.5rem;
         margin: 30px 0;
     }
 
-    .desc{
+    .main-desc{
         font-size: 1.5rem;
         margin: 30px 0;
+    }
+
+    .container{
+        max-width: 100%;
+    }
+
+    .uni-btn{
+        width: 92%;
+        margin-top: 10px !important;
+        margin-left: 15px !important;
+    }
+
+    .btn-top{
+        padding: 1rem 2rem;
+    }
+
+    .grid-head{
+        font-size: 30px;
     }
   }
