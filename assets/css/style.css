@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Roboto;
 }
 
 .head{
@@ -11,8 +14,9 @@
 }
 
 p{
-    font-size: 25px;
+    font-size: 23px;
     font-weight: 400;
+    color: rgba(0,0,0,0.8)
 }
 
 #background-video {
@@ -113,6 +117,10 @@ section{
     border-radius: 20px;
 }
 
+.toke-val{
+    color: #fff;
+}
+
 .grid-head{
     font-size: 60px;
     letter-spacing: 3px;
@@ -146,5 +154,13 @@ section{
 
     .grid-head{
         font-size: 30px;
+    }
+
+    .head{
+        font-size: 40px;
+    }
+
+    p{
+        font-size: 18px;
     }
   }

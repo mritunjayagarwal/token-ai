@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 
@@ -170,7 +171,7 @@
 
     <!-- Footer Section Start -->
     <!-- Remove the container if you want to extend the Footer to full width. -->
-    <div style = "margin-top: -50px">
+    <div style = "margin-top: -50px;">
         <!-- Footer -->
         <footer class="text-center text-white" style="background-color: #55298B">
             <!-- Grid container -->
@@ -180,35 +181,39 @@
                     <!-- Grid row-->
                     <div class="row text-center d-flex justify-content-center pt-5">
                         <!-- Grid column -->
-                        <div class="col-md-2">
+                        <div class="col-md-2" data-aos="fade-up" data-aos-delay = "100" data-aos-duration = "1000">
                             <h6 class="text-uppercase font-weight-bold mt-5">
                                 <a href="./buyorswap.html#buy" class="text-white"><i class="fa fa-telegram"
-                                        style="font-size: 30px;vertical-align: middle;margin: 0 10px"></i> Telegram</a>
+                                        style="font-size: 30px;vertical-align: middle;margin: 0 10px"></i>
+                                    Telegram</a>
                             </h6>
                         </div>
                         <!-- Grid column -->
 
                         <!-- Grid column -->
-                        <div class="col-md-2">
+                        <div class="col-md-2" data-aos="fade-up" data-aos-delay = "200" data-aos-duration = "1000">
                             <h6 class="text-uppercase font-weight-bold mt-5">
                                 <a href="./buyorswap.html" class="text-white"><i class="fa fa-twitter"
-                                        style="font-size: 30px;vertical-align: middle;margin: 0 10px"></i> Twitter</a>
+                                        style="font-size: 30px;vertical-align: middle;margin: 0 10px"></i>
+                                    Twitter</a>
                             </h6>
                         </div>
                         <!-- Grid column -->
 
                         <!-- Grid column -->
-                        <div class="col-md-2">
+                        <div class="col-md-2" data-aos="fade-up" data-aos-delay = "300" data-aos-duration = "1000">
                             <h6 class="text-uppercase font-weight-bold mt-5">
                                 <a href="./about.html" class="text-white"><i class="fa fa-medium"
-                                        style="font-size: 30px;vertical-align: middle;margin: 0 10px"></i> Medium</a>
+                                        style="font-size: 30px;vertical-align: middle;margin: 0 10px"></i>
+                                    Medium</a>
                             </h6>
                         </div>
                         <!-- Grid column -->
-                        <div class="col-md-2">
+                        <div class="col-md-2" data-aos="fade-up" data-aos-delay = "400" data-aos-duration = "1000">
                             <h6 class="text-uppercase font-weight-bold mt-5">
                                 <a href="./buyorswap.html#buy-section" class="text-white"><i class="fa fa-telegram"
-                                        style="font-size: 30px;vertical-align: middle;margin: 0 10px"></i> Dextools</a>
+                                        style="font-size: 30px;vertical-align: middle;margin: 0 10px"></i>
+                                    Dextools</a>
                             </h6>
                         </div>
                         <!-- Grid column -->
@@ -224,11 +229,8 @@
                     <div class="row d-flex justify-content-center">
                         <div class="col-lg-8 text-center">
                             <img src="./assets/img/logo.svg" id=""
-                                style="width: 150px;height: auto;margin-bottom: 15px;" alt="">
-                            <h3 class="text-center text-white mb-5 mt-0">Token AI</h3>
-                            <p class="mb-5 w-50 mx-auto">
-                                Lorem ipsum dolor sit, amet consectetur adipisicing elit Espara Del papr
-                            </p>
+                                style="width: 150px;height: auto;margin-bottom: 15px;" alt="" data-aos="zoom-out" data-aos-duration = "1000">
+                            <h3 class="text-center text-white mb-5 mt-0" data-aos="fade-up" data-aos-delay = "400" data-aos-duration = "1000">Token AI</h3>
                         </div>
                     </div>
                 </div>
@@ -237,6 +239,7 @@
                 © 2020-2022 All Rights Reserved. Token AI
             </div>
         </footer>
+        </div>
 
         <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
             integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
@@ -247,7 +250,11 @@
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
             integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
             crossorigin="anonymous"></script>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
         <script type="module" src="./assets/js/register.js"></script>
+        <script>
+            AOS.init();
+        </script>
 </body>
 
 </html>
