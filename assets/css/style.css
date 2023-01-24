@@ -99,6 +99,10 @@ section{
     height: auto;
 }
 
+.trade-img-temp{
+    display: none;
+}
+
 .trade-heading{
     color: #55298B;
     font-weight: 700;
@@ -164,11 +168,9 @@ section{
         font-size: 18px;
     }
 
-    /* .trade-img-temp{
-        width: 50%;
-        height: 50%;
-        margin: 0 auto !important;
-    } */
+    .trade-img-temp{
+        display: block;
+    }
 
     .trade-img{
         display: none;
