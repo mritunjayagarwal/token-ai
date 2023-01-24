@@ -5,13 +5,13 @@ import { initializeApp } from "https://www.gstatic.com/firebasejs/9.16.0/firebas
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-    apiKey: "AIzaSyDrCiSOPfs6YiBAF4MUnXJmRks0y0m_StE",
-    authDomain: "trade-ai-2e791.firebaseapp.com",
-    databaseURL: "https://trade-ai-2e791-default-rtdb.firebaseio.com",
-    projectId: "trade-ai-2e791",
-    storageBucket: "trade-ai-2e791.appspot.com",
-    messagingSenderId: "21470115070",
-    appId: "1:21470115070:web:03f349877cb579c6a3e1af"
+  apiKey: "AIzaSyAPyn5PG98NzYsWWdZih2zVnuu1iqUE2xo",
+  authDomain: "trade-ai-5c914.firebaseapp.com",
+  databaseURL: "https://trade-ai-5c914-default-rtdb.firebaseio.com",
+  projectId: "trade-ai-5c914",
+  storageBucket: "trade-ai-5c914.appspot.com",
+  messagingSenderId: "460460341914",
+  appId: "1:460460341914:web:00233b2bab3ebdf83cfd23"
 };
 
 // Initialize Firebase
@@ -30,7 +30,7 @@ function RegisterUser() {
     console.log("Working")
     get(child(dbRef, "users/" + name.value)).then((snapshot) => {
         if (snapshot.exists()) {
-            alert("Account Already Exist!");
+            $('#staticBackdd').modal('show')
         }
         else {
             set(ref(db, "users/" + name.value),
@@ -38,7 +38,7 @@ function RegisterUser() {
                     username: name.value,
                 })
                 .then(() => {
-                    alert("user added successfully");
+                    $('#staticBackd').modal('show')
                 })
                 .catch((error) => {
                     alert("error" + error);
