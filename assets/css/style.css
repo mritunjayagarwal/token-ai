@@ -103,6 +103,9 @@ section{
 
 .trade-img-temp{
     display: none;
+    width: 200px;
+    height: auto;
+    margin: 0 auto;
 }
 
 .trade-heading{
