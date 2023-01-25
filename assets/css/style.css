@@ -136,6 +136,16 @@ section{
     font-weight: 700;
 }
 
+/* Btn */
+
+.btn-second{
+    display: block;
+}
+
+.btn-third{
+    display: none;
+}
+
 @media only screen and (max-width: 667px) {
     .main-heading{
         font-size: 4.5rem;
@@ -184,4 +194,13 @@ section{
     .btn-top{
         width: 180px !important;
     }
+
+    .btn-second{
+        display: none;
+    }
+    
+    .btn-third{
+        display: block;
+    }
+    
   }
